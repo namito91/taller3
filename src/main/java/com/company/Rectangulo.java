@@ -5,7 +5,16 @@ public class Rectangulo {
     private int x;
     private int y;
     private int ancho;
-    private int largo;
+    private int alto;
+
+
+    public Rectangulo(int x, int y, int ancho, int largo) {
+
+        this.x = x;
+        this.y = y;
+        this.ancho = ancho;
+        this.alto = largo;
+    }
 
     public int getX() {
         return x;
@@ -31,11 +40,11 @@ public class Rectangulo {
         this.ancho = ancho;
     }
 
-    public int getLargo() {
-        return largo;
+    public int getAlto() {
+        return alto;
     }
 
-    public void setLargo(int largo) {
-        this.largo = largo;
+    public void setAlto(int alto) {
+        this.alto = alto;
     }
 }
